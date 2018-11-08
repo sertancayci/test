@@ -1,0 +1,252 @@
+ body
+ {
+     padding: 0;
+     margin: 0;
+     font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+     font-size: 14px;
+ }
+
+h1,h2,h3,h4,h5,h6
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.container
+{
+     width: 1170px;
+     margin: 0 auto;
+}
+
+.clear
+{
+   clear: both;
+}
+
+
+/* navigation */
+            
+            #nav-container
+            {
+                height: 100px;
+                background-color: #2C3E50;
+            }
+            
+            #nav-inner
+            {
+                font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                height: 100px;               
+            }
+            
+            #logo
+            {
+                float: left;
+                font-size: 2em;
+                margin:30px 10px;
+            }
+            
+            #nav-menu
+            {
+                float: right;
+                margin:40px 10px;
+            }
+            
+            #nav-inner a
+            {
+                color: #fff;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            
+            #nav-menu li
+            {
+                display: inline-block;
+                list-style: none;
+                margin:0 12px; 
+            }
+            
+            #nav-menu li a{
+                letter-spacing: 1px;
+            }
+            
+             #nav-menu li a:hover{
+                color:#18BC9C;
+            }
+            
+
+
+/* header */
+
+#header
+{    
+    text-align: center;
+    color: #fff;
+    background-color: #18BC9C;
+}
+
+#header h1
+{
+    font-size: 4.75em;   
+}
+
+.star-line
+{
+    border: none;
+    border-top: solid 5px;
+    max-width: 250px;
+    margin-top: 40px;
+}
+
+.star-line:after
+{   
+    font-family: FontAwesome;
+    content: "\f005";
+    position: relative;
+    top: -17px;
+    font-size: 30px;
+    background-color: #18BC9C;
+    padding: 10px;
+    overflow: visible;
+}
+
+.star-line-white:after
+{  
+    background-color: #18BC9C;
+    color: #fff;
+}
+
+
+.star-line-green:after
+{  
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+#header span
+{
+    font-size: 25px;
+}
+
+
+#header .container
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* Content */
+
+
+#content
+{
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+#content h2
+{
+    font-size: 40px;
+    color: #2C3E50;
+}
+
+.portfolio-item
+{
+    width: 32%;
+    float: left;
+    background-color: aquamarine;
+    margin-right: 1.3%;
+    margin-top: 15px;
+}
+
+.portfolio-item img
+{
+    width: 100%;
+}
+
+.portfolio-item a
+{
+    display: block;
+    position: relative;
+    
+}
+
+.caption{
+    background-color: #18BC9C;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.caption:hover{   
+    opacity: 0.9;
+}
+
+.caption-content
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+/* Footer */
+
+#about
+{
+    background-color: #18BC9C;
+    padding:100px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+#about h2
+{
+    font-size: 40px;
+    color: #fff;
+}
+
+
+#about p
+{
+    -webkit-column-count:2;
+    text-align: left;
+    padding: 0 20%;
+    font-size: 20px;
+    line-height: 1.42;
+}
+
+
+#btn
+{
+    color:#fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 6px; 
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#btn:hover
+{
+    background-color: #fff;
+    color: #18BC9C;
+}
+
+
+
